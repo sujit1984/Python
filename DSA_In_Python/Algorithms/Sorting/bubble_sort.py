@@ -1,3 +1,10 @@
+"""
+Author: Sujit Sugathan
+Date: 19 Oct 2022
+Description: This is a simple implementation of the very famous bubble sort algorithm
+Time Complexity: O(N^2) Space complexity: O(1)
+"""
+
 def bubbleSort(arr):
     n = len(arr)
     swapped = False
