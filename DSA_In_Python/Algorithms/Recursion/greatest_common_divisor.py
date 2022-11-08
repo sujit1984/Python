@@ -1,7 +1,7 @@
 """'
 Author: Sujit Sugathan
 Date: 03 November 2022
-Description: This is a recursive function to calculate the GCD(Greatest Common Divisor) between two numbers
+Description: This is a recursive function to calculate the GCD(Greatest Common Divisor) between two numbers using the Euclidean method.
 """
 def greatest_common_divisor(a,b):
     assert int(a) == a and int(b) == b, "The number must be integer" ## check for non-negative integers
